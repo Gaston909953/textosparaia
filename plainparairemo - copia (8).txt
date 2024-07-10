@@ -1,0 +1,1109 @@
+Internet Protocol Version 4, Src: 192.168.0.6, Dst: 5.252.32.98
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 1400
+    Identification: 0x45b8 (17848)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0xc8bb [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.0.6
+    Destination Address: 5.252.32.98
+Transmission Control Protocol, Src Port: 63778, Dst Port: 443, Seq: 47952, Ack: 3050, Len: 1360
+    Source Port: 63778
+    Destination Port: 443
+    [Stream index: 7]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+        ..0. .... = RST: Absent
+        ...1 .... = FIN: Present
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: ·FDASS]
+    [TCP Segment Len: 1360]
+    Sequence Number: 47952    (relative sequence number)
+    Sequence Number (raw): 3240858790
+    [Next Sequence Number: 49312    (relative sequence number)]
+    Acknowledgment Number: 3050    (relative ack number)
+    Acknowledgment number (raw): 3540583887
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······A····]
+    Window: 515
+    [Calculated window size: 131840]
+    [Window size scaling factor: 256]
+    Checksum: 0x19cf [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.320871000 seconds]
+        [Time since previous frame in this TCP stream: 0.000000000 seconds]
+    [SEQ/ACK analysis]
+        [iRTT: 0.260260000 seconds]
+        [Bytes in flight: 17680]
+        [Bytes sent since last PSH flag: 10880]
+    TCP payload (1360 bytes)
+    [Reassembled PDU in frame: 201]
+    TCP segment data (1360 bytes)
+
+No.     Time           Source                Destination           Protocol Length Info
+    201 12.797216      192.168.0.6           5.252.32.98           TLSv1.2  1019   Application Data
+
+Frame 201: 1019 bytes on wire (8152 bits), 1019 bytes captured (8152 bits) on interface \Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A}, id 0
+    Section number: 1
+    Interface id: 0 (\Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A})
+        Interface name: \Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A}
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Jul 10, 2024 01:01:24.779811000 Hora estándar de Argentina
+    UTC Arrival Time: Jul 10, 2024 04:01:24.779811000 UTC
+    Epoch Arrival Time: 1720584084.779811000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 0.000000000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 12.797216000 seconds]
+    Frame Number: 201
+    Frame Length: 1019 bytes (8152 bits)
+    Capture Length: 1019 bytes (8152 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:tls]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: AzureWaveTec_78:d7:21 (ec:2e:98:78:d7:21), Dst: Maxlinear_80:00:00 (00:50:f1:80:00:00)
+    Destination: Maxlinear_80:00:00 (00:50:f1:80:00:00)
+        Address: Maxlinear_80:00:00 (00:50:f1:80:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AzureWaveTec_78:d7:21 (ec:2e:98:78:d7:21)
+        Address: AzureWaveTec_78:d7:21 (ec:2e:98:78:d7:21)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.6, Dst: 5.252.32.98
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 1005
+    Identification: 0x45b9 (17849)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0xca45 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.0.6
+    Destination Address: 5.252.32.98
+Transmission Control Protocol, Src Port: 63778, Dst Port: 443, Seq: 49312, Ack: 3050, Len: 965
+    Source Port: 63778
+    Destination Port: 443
+    [Stream index: 7]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+        ..0. .... = RST: Absent
+        ...1 .... = FIN: Present
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: ·FDASS]
+    [TCP Segment Len: 965]
+    Sequence Number: 49312    (relative sequence number)
+    Sequence Number (raw): 3240860150
+    [Next Sequence Number: 50277    (relative sequence number)]
+    Acknowledgment Number: 3050    (relative ack number)
+    Acknowledgment number (raw): 3540583887
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 515
+    [Calculated window size: 131840]
+    [Window size scaling factor: 256]
+    Checksum: 0x577a [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.320871000 seconds]
+        [Time since previous frame in this TCP stream: 0.000000000 seconds]
+    [SEQ/ACK analysis]
+        [iRTT: 0.260260000 seconds]
+        [Bytes in flight: 18645]
+        [Bytes sent since last PSH flag: 11845]
+    TCP payload (965 bytes)
+    TCP segment data (965 bytes)
+[10 Reassembled TCP Segments (13077 bytes): #183(1232), #185(1360), #186(1360), #195(1360), #196(1360), #197(1360), #198(1360), #199(1360), #200(1360), #201(965)]
+    [Frame: 183, payload: 0-1231 (1232 bytes)]
+    [Frame: 185, payload: 1232-2591 (1360 bytes)]
+    [Frame: 186, payload: 2592-3951 (1360 bytes)]
+    [Frame: 195, payload: 3952-5311 (1360 bytes)]
+    [Frame: 196, payload: 5312-6671 (1360 bytes)]
+    [Frame: 197, payload: 6672-8031 (1360 bytes)]
+    [Frame: 198, payload: 8032-9391 (1360 bytes)]
+    [Frame: 199, payload: 9392-10751 (1360 bytes)]
+    [Frame: 200, payload: 10752-12111 (1360 bytes)]
+    [Frame: 201, payload: 12112-13076 (965 bytes)]
+    [Segment count: 10]
+    [Reassembled TCP length: 13077]
+    [Reassembled TCP Data [truncated]: 17030333100000000000000004b01a05d9aba0e1811622afb233a2889519d19d303e79ca0ec0c28bd38812967d5518a08e6e92c4342bf4f0a266dbcc3a1e001b5e06babd1dee013c9ef45db319b73a1d7e0031a2c398d029bd81920f34327fd171c46b0d7f275]
+Transport Layer Security
+    TLSv1.2 Record Layer: Application Data Protocol: Hypertext Transfer Protocol
+        Content Type: Application Data (23)
+        Version: TLS 1.2 (0x0303)
+        Length: 13072
+        Encrypted Application Data [truncated]: 0000000000000004b01a05d9aba0e1811622afb233a2889519d19d303e79ca0ec0c28bd38812967d5518a08e6e92c4342bf4f0a266dbcc3a1e001b5e06babd1dee013c9ef45db319b73a1d7e0031a2c398d029bd81920f34327fd171c46b0d7f275cb7b
+        [Application Data Protocol: Hypertext Transfer Protocol]
+
+No.     Time           Source                Destination           Protocol Length Info
+    202 12.798970      5.252.32.98           192.168.0.6           TCP      60     443 → 63778 [ACK] Seq=3050 Ack=34352 Win=86528 Len=0
+
+Frame 202: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A}, id 0
+    Section number: 1
+    Interface id: 0 (\Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A})
+        Interface name: \Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A}
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Jul 10, 2024 01:01:24.781565000 Hora estándar de Argentina
+    UTC Arrival Time: Jul 10, 2024 04:01:24.781565000 UTC
+    Epoch Arrival Time: 1720584084.781565000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 0.001754000 seconds]
+    [Time delta from previous displayed frame: 0.001754000 seconds]
+    [Time since reference or first frame: 12.798970000 seconds]
+    Frame Number: 202
+    Frame Length: 60 bytes (480 bits)
+    Capture Length: 60 bytes (480 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: SDMCTechnolo_91:9e:e4 (b4:9d:fd:91:9e:e4), Dst: AzureWaveTec_78:d7:21 (ec:2e:98:78:d7:21)
+    Destination: AzureWaveTec_78:d7:21 (ec:2e:98:78:d7:21)
+        Address: AzureWaveTec_78:d7:21 (ec:2e:98:78:d7:21)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: SDMCTechnolo_91:9e:e4 (b4:9d:fd:91:9e:e4)
+        Address: SDMCTechnolo_91:9e:e4 (b4:9d:fd:91:9e:e4)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    Padding: 000000000000
+Internet Protocol Version 4, Src: 5.252.32.98, Dst: 192.168.0.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x50 (DSCP: AF22, ECN: Not-ECT)
+        0101 00.. = Differentiated Services Codepoint: Assured Forwarding 22 (20)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 40
+    Identification: 0x80a2 (32930)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 55
+    Protocol: TCP (6)
+    Header Checksum: 0xdbd1 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 5.252.32.98
+    Destination Address: 192.168.0.6
+Transmission Control Protocol, Src Port: 443, Dst Port: 63778, Seq: 3050, Ack: 34352, Len: 0
+    Source Port: 443
+    Destination Port: 63778
+    [Stream index: 7]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+        ..0. .... = RST: Absent
+        ...1 .... = FIN: Present
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: ·FDASS]
+    [TCP Segment Len: 0]
+    Sequence Number: 3050    (relative sequence number)
+    Sequence Number (raw): 3540583887
+    [Next Sequence Number: 3050    (relative sequence number)]
+    Acknowledgment Number: 34352    (relative ack number)
+    Acknowledgment number (raw): 3240845190
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······A····]
+    Window: 169
+    [Calculated window size: 86528]
+    [Window size scaling factor: 512]
+    Checksum: 0xd3b6 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.322625000 seconds]
+        [Time since previous frame in this TCP stream: 0.001754000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 180]
+        [The RTT to ACK the segment was: 0.257237000 seconds]
+        [iRTT: 0.260260000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    203 12.798970      5.252.32.98           192.168.0.6           TCP      60     443 → 63778 [ACK] Seq=3050 Ack=38432 Win=86016 Len=0
+
+Frame 203: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A}, id 0
+    Section number: 1
+    Interface id: 0 (\Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A})
+        Interface name: \Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A}
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Jul 10, 2024 01:01:24.781565000 Hora estándar de Argentina
+    UTC Arrival Time: Jul 10, 2024 04:01:24.781565000 UTC
+    Epoch Arrival Time: 1720584084.781565000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 0.000000000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 12.798970000 seconds]
+    Frame Number: 203
+    Frame Length: 60 bytes (480 bits)
+    Capture Length: 60 bytes (480 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: SDMCTechnolo_91:9e:e4 (b4:9d:fd:91:9e:e4), Dst: AzureWaveTec_78:d7:21 (ec:2e:98:78:d7:21)
+    Destination: AzureWaveTec_78:d7:21 (ec:2e:98:78:d7:21)
+        Address: AzureWaveTec_78:d7:21 (ec:2e:98:78:d7:21)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: SDMCTechnolo_91:9e:e4 (b4:9d:fd:91:9e:e4)
+        Address: SDMCTechnolo_91:9e:e4 (b4:9d:fd:91:9e:e4)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    Padding: 000000000000
+Internet Protocol Version 4, Src: 5.252.32.98, Dst: 192.168.0.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x50 (DSCP: AF22, ECN: Not-ECT)
+        0101 00.. = Differentiated Services Codepoint: Assured Forwarding 22 (20)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 40
+    Identification: 0x80a3 (32931)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 55
+    Protocol: TCP (6)
+    Header Checksum: 0xdbd0 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 5.252.32.98
+    Destination Address: 192.168.0.6
+Transmission Control Protocol, Src Port: 443, Dst Port: 63778, Seq: 3050, Ack: 38432, Len: 0
+    Source Port: 443
+    Destination Port: 63778
+    [Stream index: 7]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+        ..0. .... = RST: Absent
+        ...1 .... = FIN: Present
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: ·FDASS]
+    [TCP Segment Len: 0]
+    Sequence Number: 3050    (relative sequence number)
+    Sequence Number (raw): 3540583887
+    [Next Sequence Number: 3050    (relative sequence number)]
+    Acknowledgment Number: 38432    (relative ack number)
+    Acknowledgment number (raw): 3240849270
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······A····]
+    Window: 168
+    [Calculated window size: 86016]
+    [Window size scaling factor: 512]
+    Checksum: 0xc3c7 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.322625000 seconds]
+        [Time since previous frame in this TCP stream: 0.000000000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 183]
+        [The RTT to ACK the segment was: 0.257237000 seconds]
+        [iRTT: 0.260260000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    204 12.840654      5.252.32.98           192.168.0.6           TCP      60     443 → 63778 [ACK] Seq=3050 Ack=41152 Win=86528 Len=0
+
+Frame 204: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A}, id 0
+    Section number: 1
+    Interface id: 0 (\Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A})
+        Interface name: \Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A}
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Jul 10, 2024 01:01:24.823249000 Hora estándar de Argentina
+    UTC Arrival Time: Jul 10, 2024 04:01:24.823249000 UTC
+    Epoch Arrival Time: 1720584084.823249000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 0.041684000 seconds]
+    [Time delta from previous displayed frame: 0.041684000 seconds]
+    [Time since reference or first frame: 12.840654000 seconds]
+    Frame Number: 204
+    Frame Length: 60 bytes (480 bits)
+    Capture Length: 60 bytes (480 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Maxlinear_80:00:00 (00:50:f1:80:00:00), Dst: AzureWaveTec_78:d7:21 (ec:2e:98:78:d7:21)
+    Destination: AzureWaveTec_78:d7:21 (ec:2e:98:78:d7:21)
+        Address: AzureWaveTec_78:d7:21 (ec:2e:98:78:d7:21)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Maxlinear_80:00:00 (00:50:f1:80:00:00)
+        Address: Maxlinear_80:00:00 (00:50:f1:80:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    Padding: 000000000000
+Internet Protocol Version 4, Src: 5.252.32.98, Dst: 192.168.0.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x50 (DSCP: AF22, ECN: Not-ECT)
+        0101 00.. = Differentiated Services Codepoint: Assured Forwarding 22 (20)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 40
+    Identification: 0x80a4 (32932)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 55
+    Protocol: TCP (6)
+    Header Checksum: 0xdbcf [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 5.252.32.98
+    Destination Address: 192.168.0.6
+Transmission Control Protocol, Src Port: 443, Dst Port: 63778, Seq: 3050, Ack: 41152, Len: 0
+    Source Port: 443
+    Destination Port: 63778
+    [Stream index: 7]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+        ..0. .... = RST: Absent
+        ...1 .... = FIN: Present
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: ·FDASS]
+    [TCP Segment Len: 0]
+    Sequence Number: 3050    (relative sequence number)
+    Sequence Number (raw): 3540583887
+    [Next Sequence Number: 3050    (relative sequence number)]
+    Acknowledgment Number: 41152    (relative ack number)
+    Acknowledgment number (raw): 3240851990
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······A····]
+    Window: 169
+    [Calculated window size: 86528]
+    [Window size scaling factor: 512]
+    Checksum: 0xb926 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.364309000 seconds]
+        [Time since previous frame in this TCP stream: 0.041684000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 186]
+        [The RTT to ACK the segment was: 0.256732000 seconds]
+        [iRTT: 0.260260000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    205 13.060414      5.252.32.98           192.168.0.6           TCP      60     443 → 63778 [ACK] Seq=3050 Ack=43872 Win=86528 Len=0
+
+Frame 205: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A}, id 0
+    Section number: 1
+    Interface id: 0 (\Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A})
+        Interface name: \Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A}
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Jul 10, 2024 01:01:25.043009000 Hora estándar de Argentina
+    UTC Arrival Time: Jul 10, 2024 04:01:25.043009000 UTC
+    Epoch Arrival Time: 1720584085.043009000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 0.219760000 seconds]
+    [Time delta from previous displayed frame: 0.219760000 seconds]
+    [Time since reference or first frame: 13.060414000 seconds]
+    Frame Number: 205
+    Frame Length: 60 bytes (480 bits)
+    Capture Length: 60 bytes (480 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: SDMCTechnolo_91:9e:e4 (b4:9d:fd:91:9e:e4), Dst: AzureWaveTec_78:d7:21 (ec:2e:98:78:d7:21)
+    Destination: AzureWaveTec_78:d7:21 (ec:2e:98:78:d7:21)
+        Address: AzureWaveTec_78:d7:21 (ec:2e:98:78:d7:21)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: SDMCTechnolo_91:9e:e4 (b4:9d:fd:91:9e:e4)
+        Address: SDMCTechnolo_91:9e:e4 (b4:9d:fd:91:9e:e4)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    Padding: 000000000000
+Internet Protocol Version 4, Src: 5.252.32.98, Dst: 192.168.0.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x50 (DSCP: AF22, ECN: Not-ECT)
+        0101 00.. = Differentiated Services Codepoint: Assured Forwarding 22 (20)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 40
+    Identification: 0x80a5 (32933)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 55
+    Protocol: TCP (6)
+    Header Checksum: 0xdbce [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 5.252.32.98
+    Destination Address: 192.168.0.6
+Transmission Control Protocol, Src Port: 443, Dst Port: 63778, Seq: 3050, Ack: 43872, Len: 0
+    Source Port: 443
+    Destination Port: 63778
+    [Stream index: 7]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+        ..0. .... = RST: Absent
+        ...1 .... = FIN: Present
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: ·FDASS]
+    [TCP Segment Len: 0]
+    Sequence Number: 3050    (relative sequence number)
+    Sequence Number (raw): 3540583887
+    [Next Sequence Number: 3050    (relative sequence number)]
+    Acknowledgment Number: 43872    (relative ack number)
+    Acknowledgment number (raw): 3240854710
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······A····]
+    Window: 169
+    [Calculated window size: 86528]
+    [Window size scaling factor: 512]
+    Checksum: 0xae86 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.584069000 seconds]
+        [Time since previous frame in this TCP stream: 0.219760000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 196]
+        [The RTT to ACK the segment was: 0.263198000 seconds]
+        [iRTT: 0.260260000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    206 13.060414      5.252.32.98           192.168.0.6           TCP      60     443 → 63778 [ACK] Seq=3050 Ack=46592 Win=86528 Len=0
+
+Frame 206: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A}, id 0
+    Section number: 1
+    Interface id: 0 (\Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A})
+        Interface name: \Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A}
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Jul 10, 2024 01:01:25.043009000 Hora estándar de Argentina
+    UTC Arrival Time: Jul 10, 2024 04:01:25.043009000 UTC
+    Epoch Arrival Time: 1720584085.043009000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 0.000000000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 13.060414000 seconds]
+    Frame Number: 206
+    Frame Length: 60 bytes (480 bits)
+    Capture Length: 60 bytes (480 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: SDMCTechnolo_91:9e:e4 (b4:9d:fd:91:9e:e4), Dst: AzureWaveTec_78:d7:21 (ec:2e:98:78:d7:21)
+    Destination: AzureWaveTec_78:d7:21 (ec:2e:98:78:d7:21)
+        Address: AzureWaveTec_78:d7:21 (ec:2e:98:78:d7:21)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: SDMCTechnolo_91:9e:e4 (b4:9d:fd:91:9e:e4)
+        Address: SDMCTechnolo_91:9e:e4 (b4:9d:fd:91:9e:e4)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    Padding: 000000000000
+Internet Protocol Version 4, Src: 5.252.32.98, Dst: 192.168.0.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x50 (DSCP: AF22, ECN: Not-ECT)
+        0101 00.. = Differentiated Services Codepoint: Assured Forwarding 22 (20)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 40
+    Identification: 0x80a6 (32934)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 55
+    Protocol: TCP (6)
+    Header Checksum: 0xdbcd [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 5.252.32.98
+    Destination Address: 192.168.0.6
+Transmission Control Protocol, Src Port: 443, Dst Port: 63778, Seq: 3050, Ack: 46592, Len: 0
+    Source Port: 443
+    Destination Port: 63778
+    [Stream index: 7]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+        ..0. .... = RST: Absent
+        ...1 .... = FIN: Present
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: ·FDASS]
+    [TCP Segment Len: 0]
+    Sequence Number: 3050    (relative sequence number)
+    Sequence Number (raw): 3540583887
+    [Next Sequence Number: 3050    (relative sequence number)]
+    Acknowledgment Number: 46592    (relative ack number)
+    Acknowledgment number (raw): 3240857430
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······A····]
+    Window: 169
+    [Calculated window size: 86528]
+    [Window size scaling factor: 512]
+    Checksum: 0xa3e6 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.584069000 seconds]
+        [Time since previous frame in this TCP stream: 0.000000000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 198]
+        [The RTT to ACK the segment was: 0.263198000 seconds]
+        [iRTT: 0.260260000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    207 13.060414      5.252.32.98           192.168.0.6           TCP      60     443 → 63778 [ACK] Seq=3050 Ack=50277 Win=86528 Len=0
+
+Frame 207: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A}, id 0
+    Section number: 1
+    Interface id: 0 (\Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A})
+        Interface name: \Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A}
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Jul 10, 2024 01:01:25.043009000 Hora estándar de Argentina
+    UTC Arrival Time: Jul 10, 2024 04:01:25.043009000 UTC
+    Epoch Arrival Time: 1720584085.043009000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 0.000000000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 13.060414000 seconds]
+    Frame Number: 207
+    Frame Length: 60 bytes (480 bits)
+    Capture Length: 60 bytes (480 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: SDMCTechnolo_91:9e:e4 (b4:9d:fd:91:9e:e4), Dst: AzureWaveTec_78:d7:21 (ec:2e:98:78:d7:21)
+    Destination: AzureWaveTec_78:d7:21 (ec:2e:98:78:d7:21)
+        Address: AzureWaveTec_78:d7:21 (ec:2e:98:78:d7:21)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: SDMCTechnolo_91:9e:e4 (b4:9d:fd:91:9e:e4)
+        Address: SDMCTechnolo_91:9e:e4 (b4:9d:fd:91:9e:e4)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    Padding: 000000000000
+Internet Protocol Version 4, Src: 5.252.32.98, Dst: 192.168.0.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x50 (DSCP: AF22, ECN: Not-ECT)
+        0101 00.. = Differentiated Services Codepoint: Assured Forwarding 22 (20)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 40
+    Identification: 0x80a7 (32935)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 55
+    Protocol: TCP (6)
+    Header Checksum: 0xdbcc [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 5.252.32.98
+    Destination Address: 192.168.0.6
+Transmission Control Protocol, Src Port: 443, Dst Port: 63778, Seq: 3050, Ack: 50277, Len: 0
+    Source Port: 443
+    Destination Port: 63778
+    [Stream index: 7]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+        ..0. .... = RST: Absent
+        ...1 .... = FIN: Present
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: ·FDASS]
+    [TCP Segment Len: 0]
+    Sequence Number: 3050    (relative sequence number)
+    Sequence Number (raw): 3540583887
+    [Next Sequence Number: 3050    (relative sequence number)]
+    Acknowledgment Number: 50277    (relative ack number)
+    Acknowledgment number (raw): 3240861115
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······A····]
+    Window: 169
+    [Calculated window size: 86528]
+    [Window size scaling factor: 512]
+    Checksum: 0x9581 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.584069000 seconds]
+        [Time since previous frame in this TCP stream: 0.000000000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 201]
+        [The RTT to ACK the segment was: 0.263198000 seconds]
+        [iRTT: 0.260260000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    208 14.692888      5.252.32.98           192.168.0.6           TLSv1.2  377    Application Data
+
+Frame 208: 377 bytes on wire (3016 bits), 377 bytes captured (3016 bits) on interface \Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A}, id 0
+    Section number: 1
+    Interface id: 0 (\Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A})
+        Interface name: \Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A}
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Jul 10, 2024 01:01:26.675483000 Hora estándar de Argentina
+    UTC Arrival Time: Jul 10, 2024 04:01:26.675483000 UTC
+    Epoch Arrival Time: 1720584086.675483000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 1.632474000 seconds]
+    [Time delta from previous displayed frame: 1.632474000 seconds]
+    [Time since reference or first frame: 14.692888000 seconds]
+    Frame Number: 208
+    Frame Length: 377 bytes (3016 bits)
+    Capture Length: 377 bytes (3016 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:tls]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: SDMCTechnolo_91:9e:e4 (b4:9d:fd:91:9e:e4), Dst: AzureWaveTec_78:d7:21 (ec:2e:98:78:d7:21)
+    Destination: AzureWaveTec_78:d7:21 (ec:2e:98:78:d7:21)
+        Address: AzureWaveTec_78:d7:21 (ec:2e:98:78:d7:21)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: SDMCTechnolo_91:9e:e4 (b4:9d:fd:91:9e:e4)
+        Address: SDMCTechnolo_91:9e:e4 (b4:9d:fd:91:9e:e4)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 5.252.32.98, Dst: 192.168.0.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x50 (DSCP: AF22, ECN: Not-ECT)
+        0101 00.. = Differentiated Services Codepoint: Assured Forwarding 22 (20)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 363
+    Identification: 0x80a8 (32936)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 55
+    Protocol: TCP (6)
+    Header Checksum: 0xda88 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 5.252.32.98
+    Destination Address: 192.168.0.6
+Transmission Control Protocol, Src Port: 443, Dst Port: 63778, Seq: 3050, Ack: 50277, Len: 323
+    Source Port: 443
+    Destination Port: 63778
+    [Stream index: 7]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+        ..0. .... = RST: Absent
+        ...1 .... = FIN: Present
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: ·FDASS]
+    [TCP Segment Len: 323]
+    Sequence Number: 3050    (relative sequence number)
+    Sequence Number (raw): 3540583887
+    [Next Sequence Number: 3373    (relative sequence number)]
+    Acknowledgment Number: 50277    (relative ack number)
+    Acknowledgment number (raw): 3240861115
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 169
+    [Calculated window size: 86528]
+    [Window size scaling factor: 512]
+    Checksum: 0xc438 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 3.216543000 seconds]
+        [Time since previous frame in this TCP stream: 1.632474000 seconds]
+    [SEQ/ACK analysis]
+        [iRTT: 0.260260000 seconds]
+        [Bytes in flight: 323]
+        [Bytes sent since last PSH flag: 323]
+    TCP payload (323 bytes)
+Transport Layer Security
+    TLSv1.2 Record Layer: Application Data Protocol: Hypertext Transfer Protocol
+        Content Type: Application Data (23)
+        Version: TLS 1.2 (0x0303)
+        Length: 318
+        Encrypted Application Data [truncated]: b9b3712a6b275a1673434d842495fa641d3e9abab811abfdbafff6a0c7d991c7a4e6a99c2b5d7df475b9a8bcd974111e1a842938d9a8a5d000a8aeaa777292d607f567aede81708b59146a7b8e0d9588771be5dd14029817260d38bb3ccfc9524254a12
+        [Application Data Protocol: Hypertext Transfer Protocol]
+
+No.     Time           Source                Destination           Protocol Length Info
+    209 14.692888      5.252.32.98           192.168.0.6           TLSv1.2  88     Application Data
+
+Frame 209: 88 bytes on wire (704 bits), 88 bytes captured (704 bits) on interface \Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A}, id 0
+    Section number: 1
+    Interface id: 0 (\Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A})
+        Interface name: \Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A}
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Jul 10, 2024 01:01:26.675483000 Hora estándar de Argentina
+    UTC Arrival Time: Jul 10, 2024 04:01:26.675483000 UTC
+    Epoch Arrival Time: 1720584086.675483000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 0.000000000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 14.692888000 seconds]
+    Frame Number: 209
+    Frame Length: 88 bytes (704 bits)
+    Capture Length: 88 bytes (704 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:tls]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: SDMCTechnolo_91:9e:e4 (b4:9d:fd:91:9e:e4), Dst: AzureWaveTec_78:d7:21 (ec:2e:98:78:d7:21)
+    Destination: AzureWaveTec_78:d7:21 (ec:2e:98:78:d7:21)
+        Address: AzureWaveTec_78:d7:21 (ec:2e:98:78:d7:21)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: SDMCTechnolo_91:9e:e4 (b4:9d:fd:91:9e:e4)
+        Address: SDMCTechnolo_91:9e:e4 (b4:9d:fd:91:9e:e4)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 5.252.32.98, Dst: 192.168.0.6
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x50 (DSCP: AF22, ECN: Not-ECT)
+        0101 00.. = Differentiated Services Codepoint: Assured Forwarding 22 (20)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 74
+    Identification: 0x80a9 (32937)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 55
+    Protocol: TCP (6)
+    Header Checksum: 0xdba8 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 5.252.32.98
+    Destination Address: 192.168.0.6
+Transmission Control Protocol, Src Port: 443, Dst Port: 63778, Seq: 3373, Ack: 50277, Len: 34
+    Source Port: 443
+    Destination Port: 63778
+    [Stream index: 7]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+        ..0. .... = RST: Absent
+        ...1 .... = FIN: Present
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: ·FDASS]
+    [TCP Segment Len: 34]
+    Sequence Number: 3373    (relative sequence number)
+    Sequence Number (raw): 3540584210
+    [Next Sequence Number: 3407    (relative sequence number)]
+    Acknowledgment Number: 50277    (relative ack number)
+    Acknowledgment number (raw): 3240861115
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 169
+    [Calculated window size: 86528]
+    [Window size scaling factor: 512]
+    Checksum: 0x69b7 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 3.216543000 seconds]
+        [Time since previous frame in this TCP stream: 0.000000000 seconds]
+    [SEQ/ACK analysis]
+        [iRTT: 0.260260000 seconds]
+        [Bytes in flight: 357]
+        [Bytes sent since last PSH flag: 34]
+    TCP payload (34 bytes)
+Transport Layer Security
+    TLSv1.2 Record Layer: Application Data Protocol: Hypertext Transfer Protocol
+        Content Type: Application Data (23)
+        Version: TLS 1.2 (0x0303)
+        Length: 29
+        Encrypted Application Data: b9b3712a6b275a17e1b301d9722a3d1b6bc8f30fb25967202bbee3f24f
+        [Application Data Protocol: Hypertext Transfer Protocol]
+
+No.     Time           Source                Destination           Protocol Length Info
+    210 14.693021      192.168.0.6           5.252.32.98           TCP      54     63778 → 443 [ACK] Seq=50277 Ack=3407 Win=131328 Len=0
+
+Frame 210: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A}, id 0
+    Section number: 1
+    Interface id: 0 (\Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A})
+        Interface name: \Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A}
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Jul 10, 2024 01:01:26.675616000 Hora estándar de Argentina
+    UTC Arrival Time: Jul 10, 2024 04:01:26.675616000 UTC
+    Epoch Arrival Time: 1720584086.675616000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 0.000133000 seconds]
+    [Time delta from previous displayed frame: 0.000133000 seconds]
+    [Time since reference or first frame: 14.693021000 seconds]
+    Frame Number: 210
+    Frame Length: 54 bytes (432 bits)
+    Capture Length: 54 bytes (432 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: AzureWaveTec_78:d7:21 (ec:2e:98:78:d7:21), Dst: Maxlinear_80:00:00 (00:50:f1:80:00:00)
+    Destination: Maxlinear_80:00:00 (00:50:f1:80:00:00)
+        Address: Maxlinear_80:00:00 (00:50:f1:80:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AzureWaveTec_78:d7:21 (ec:2e:98:78:d7:21)
+        Address: AzureWaveTec_78:d7:21 (ec:2e:98:78:d7:21)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.6, Dst: 5.252.32.98
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 40
+    Identification: 0x45ba (17850)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0xce09 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.0.6
+    Destination Address: 5.252.32.98
+Transmission Control Protocol, Src Port: 63778, Dst Port: 443, Seq: 50277, Ack: 3407, Len: 0
+    Source Port: 63778
+    Destination Port: 443
+    [Stream index: 7]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+        ..0. .... = RST: Absent
+        ...1 .... = FIN: Present
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: ·FDASS]
+    [TCP Segment Len: 0]
+    Sequence Number: 50277    (relative sequence number)
+    Sequence Number (raw): 3240861115
+    [Next Sequence Number: 50277    (relative sequence number)]
+    Acknowledgment Number: 3407    (relative ack number)
+    Acknowledgment number (raw): 3540584244
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······A····]
+    Window: 513
+    [Calculated window size: 131328]
+    [Window size scaling factor: 256]
+    Checksum: 0x92c4 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 3.216676000 seconds]
+        [Time since previous frame in this TCP stream: 0.000133000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 209]
+        [The RTT to ACK the segment was: 0.000133000 seconds]
+        [iRTT: 0.260260000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    211 14.693653      192.168.0.6           5.252.32.98           TCP      54     63778 → 443 [FIN, ACK] Seq=50277 Ack=3407 Win=131328 Len=0
+
+Frame 211: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A}, id 0
+    Section number: 1
+    Interface id: 0 (\Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A})
+        Interface name: \Device\NPF_{9DA57E6A-DB56-483D-A9F1-101740B9C29A}
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Jul 10, 2024 01:01:26.676248000 Hora estándar de Argentina
+    UTC Arrival Time: Jul 10, 2024 04:01:26.676248000 UTC
+    Epoch Arrival Time: 1720584086.676248000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 0.000632000 seconds]
+    [Time delta from previous displayed frame: 0.000632000 seconds]
+    [Time since reference or first frame: 14.693653000 seconds]
+    Frame Number: 211
